@@ -211,9 +211,34 @@
     <Compile Include="Migrations\201912260121144_MakeBirthDateNullable.Designer.cs">
       <DependentUpon>201912260121144_MakeBirthDateNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912260134562_AddGenreAndOtherPropertiesToMovie.cs" />
+    <Compile Include="Migrations\201912260134562_AddGenreAndOtherPropertiesToMovie.Designer.cs">
+      <DependentUpon>201912260134562_AddGenreAndOtherPropertiesToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912260135385_UpdateDataInGenreTable.cs" />
+    <Compile Include="Migrations\201912260135385_UpdateDataInGenreTable.Designer.cs">
+      <DependentUpon>201912260135385_UpdateDataInGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912260210133_UpdatedGenreIdToInt.cs" />
+    <Compile Include="Migrations\201912260210133_UpdatedGenreIdToInt.Designer.cs">
+      <DependentUpon>201912260210133_UpdatedGenreIdToInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912260214026_UpdatedGenreToByteInMovie.cs" />
+    <Compile Include="Migrations\201912260214026_UpdatedGenreToByteInMovie.Designer.cs">
+      <DependentUpon>201912260214026_UpdatedGenreToByteInMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912260216549_AddedGenreInMovie.cs" />
+    <Compile Include="Migrations\201912260216549_AddedGenreInMovie.Designer.cs">
+      <DependentUpon>201912260216549_AddedGenreInMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912260226476_PopulateDataInGenre.cs" />
+    <Compile Include="Migrations\201912260226476_PopulateDataInGenre.Designer.cs">
+      <DependentUpon>201912260226476_PopulateDataInGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -284,6 +309,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -328,6 +354,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912260121144_MakeBirthDateNullable.resx">
       <DependentUpon>201912260121144_MakeBirthDateNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260134562_AddGenreAndOtherPropertiesToMovie.resx">
+      <DependentUpon>201912260134562_AddGenreAndOtherPropertiesToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260135385_UpdateDataInGenreTable.resx">
+      <DependentUpon>201912260135385_UpdateDataInGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260210133_UpdatedGenreIdToInt.resx">
+      <DependentUpon>201912260210133_UpdatedGenreIdToInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260214026_UpdatedGenreToByteInMovie.resx">
+      <DependentUpon>201912260214026_UpdatedGenreToByteInMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260216549_AddedGenreInMovie.resx">
+      <DependentUpon>201912260216549_AddedGenreInMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912260226476_PopulateDataInGenre.resx">
+      <DependentUpon>201912260226476_PopulateDataInGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
